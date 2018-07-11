@@ -1,10 +1,13 @@
 ---
 title:  "Gemified Theme -- Beta Release"
 modified: 2016-10-06T16:03:49-04:00
+author: Billy Rick
 categories: 
   - Jekyll
 tags:
   - update
+header:
+  teaser: /assets/images/unsplash-image-4.jpg
 ---
 
 Hot on the heels of Jekyll v3.3.0 is a beta release of Minimal Mistakes... as a gemified theme.

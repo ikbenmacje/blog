@@ -2,83 +2,17 @@
 permalink: /about/
 title: "About"
 excerpt: "Minimal Mistakes is a flexible two-column Jekyll theme."
-layouts_gallery:
-  - url: mm-layout-splash.png
-    image_path: mm-layout-splash.png
-    alt: "splash layout example"
-  - url: mm-layout-single-meta.png
-    image_path: mm-layout-single-meta.png
-    alt: "single layout with comments and related posts"
-  - url: mm-layout-archive.png
-    image_path: mm-layout-archive.png
-    alt: "archive layout example"
-modified: 2016-04-18T16:39:37-04:00
----
-
-{% include base_path %}
-
-Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or self-hosting on your own server. As the name implies --- styling is purposely minimalistic to be enhanced and customized by you :smile:.
-
-The theme includes responsive layouts (`single`, `archive`, and `splash` pages) that look great on mobile and desktop browsers.
-
-{% include gallery id="layouts_gallery" caption="Examples of included layouts `splash`, `single`, and `archive`." %}
-
-[Install the Theme]({{ base_path }}/docs/quick-start-guide/){: .btn .btn--success .btn--large}
-
-## Notable Features
-
-- Compatible with Jekyll 3.x and GitHub Pages
-- Several layout options (single, archive, splash pages)
-- SEO optimized with support for [Twitter Cards](https://dev.twitter.com/cards/overview) and [Open Graph](http://ogp.me/) data
-- Optional header images, sidebars, table of contents, galleries, related posts, breadcrumb links, and more.
-- Optional comments ([Disqus](https://disqus.com/), [Facebook](https://developers.facebook.com/docs/plugins/comments), Google+, and custom)
-- Optional analytics ([Google Analytics](https://www.google.com/analytics/) and custom)
-
-## Demo Pages
-
-| Name                                        | Description                                           |
-| ------------------------------------------- | ----------------------------------------------------- |
-| [Post with Header Image][header-image-post] | A post with a large header image. |
-| [HTML Tags and Formatting Post][html-tags-post] | A variety of common markup showing how the theme styles them. |
-| [Syntax Highlighting Post][syntax-post] | Post displaying highlighted code. |
-| [Post with a Gallery][gallery-post] | A post showing several images wrapped in `<figure>` elements. |
-| [Sample Collection Page][sample-collection] | Single page from a collection. |
-| [Categories Archive][categories-archive] | Posts grouped by category. |
-| [Tags Archive][tags-archive] | Posts grouped by tags. |
-
-For even more demo pages check the [posts archive][year-archive].
-
-[header-image-post]: {{ base_path }}{% post_url 2012-03-15-layout-header-image-text-readability %}
-[gallery-post]: {{ base_path }}{% post_url 2010-09-09-post-gallery %}
-[html-tags-post]: {{ base_path }}{% post_url 2013-01-11-markup-html-tags-and-formatting %}
-[syntax-post]: {{ base_path }}{% post_url 2013-08-16-markup-syntax-highlighting %}
-[sample-collection]: {{ base_path }}/recipes/chocolate-chip-cookies/
-[categories-archive]: {{ base_path }}/categories/
-[tags-archive]: {{ base_path }}/tags/
-[year-archive]: {{ base_path }}/year-archive/
 
 ---
 
-## Credits
+{% include figure image_path="/assets/images/unsplash-image-5.jpg" alt="this is a placeholder image" caption="This is a figure caption." %}
 
-### Icons + Demo Images:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pulvinar dictum leo ut consequat. Duis auctor ullamcorper nunc, a dignissim lectus interdum sit amet. In dui dui, rhoncus aliquet tellus a, mattis feugiat justo. Vivamus et purus a est elementum finibus. Nunc suscipit lacus gravida nunc ultrices auctor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum sem turpis, vehicula semper accumsan non, porttitor ut justo. Vivamus non arcu malesuada, suscipit tellus vitae, ultricies leo. Suspendisse vestibulum posuere nibh. Sed et ultrices enim. Aliquam lacinia pharetra ipsum, sed viverra ipsum placerat et. Ut tincidunt urna metus, sed sagittis diam imperdiet id. Curabitur finibus elit vitae erat vestibulum gravida.
 
-- [The Noun Project](https://thenounproject.com) -- Garrett Knoll, Arthur Shlain, and [tracy tam](https://thenounproject.com/tracytam)
-- [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
-- [Unsplash](https://unsplash.com/)
+Nulla facilisi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum sed nisl a nisi mattis gravida id nec diam. Praesent consectetur tellus lorem, vel aliquam lectus finibus sit amet. Fusce vitae erat dapibus, consequat quam ut, ullamcorper dui. Suspendisse faucibus lorem lobortis, pharetra augue ut, sollicitudin neque. Sed neque metus, viverra at ante non, faucibus lobortis ante. Morbi et leo nec dui sagittis pellentesque.
 
-### Other:
+Nulla tempus semper dui a condimentum. Sed blandit vulputate sagittis. Aenean nec tellus orci. Nam sed hendrerit dui. Maecenas et vehicula enim, quis luctus sem. Donec eget semper tortor, sed ultrices lectus. Etiam viverra lorem at suscipit feugiat.
 
-- [Jekyll](http://jekyllrb.com/)
-- [jQuery](http://jquery.com/)
-- [Susy](http://susy.oddbird.net/)
-- [Breakpoint](http://breakpoint-sass.com/)
-- [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/)
-- [FitVids.JS](http://fitvidsjs.com/)
-- Greedy Navigation - [lukejacksonn](http://codepen.io/lukejacksonn/pen/PwmwWV)
-- [jQuery Smooth Scroll](https://github.com/kswedberg/jquery-smooth-scroll)
-- [Stickyfill](https://github.com/wilddeer/stickyfill)
+Pellentesque sed lobortis ante, nec porttitor arcu. Integer lectus metus, condimentum eget condimentum egestas, bibendum nec tortor. Nam rutrum hendrerit sollicitudin. Fusce non lobortis tellus. Aenean sit amet eleifend purus. Etiam fermentum, turpis non vehicula blandit, dolor lectus bibendum est, at rhoncus dui mauris ac odio. Duis sed sapien vitae nisl ultrices fringilla. In laoreet in tellus at molestie. Nam quis nibh erat. Quisque vitae hendrerit mi, sit amet pharetra dolor. Vivamus massa tortor, sodales ac orci dignissim, finibus ullamcorper felis. Suspendisse ac tortor nunc. Etiam id congue lectus. Morbi faucibus faucibus velit et varius. Pellentesque maximus egestas nisl.
 
----
-
-Minimal Mistakes is designed, developed, and maintained by Michael Rose. Just another boring, tattooed, designer from Buffalo New York.
+Duis ac dui tristique, bibendum sapien non, finibus mi. Quisque scelerisque dolor sapien, vitae fermentum nunc dapibus a. Duis felis ex, accumsan sed convallis eget, tempus et orci. Suspendisse dictum mi mauris, pretium porta neque congue vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer commodo quam a tellus pretium, nec aliquam nisl malesuada. Duis commodo lacinia faucibus. Ut finibus ante suscipit metus gravida facilisis. Nunc vitae vestibulum orci, ac facilisis velit. In mollis eget augue id gravida. Etiam non porttitor sem. Donec fermentum ut sapien vitae consectetur. Morbi congue leo sem, at vulputate elit faucibus sit amet.

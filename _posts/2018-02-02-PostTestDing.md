@@ -1,6 +1,12 @@
 ---
 title: "Markup: Text Readability Test"
 excerpt: "A bunch of text to test readability."
+author: Cornelius Fiddlebone
+header:
+  image: /assets/images/unsplash-image-4.jpg
+  image_description: "A description of the image"
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  teaser: /assets/images/unsplash-image-4.jpg
 tags: 
   - sample post
   - readability
